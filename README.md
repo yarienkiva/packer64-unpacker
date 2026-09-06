@@ -1,5 +1,5 @@
 # packer64-unpacker
-Unpacker for executables packed with https://github.com/jadams/Packer64
+Unpacker for executables packed with https://github.com/jadams/Packer64.
 
 ## Usage
 
@@ -16,4 +16,4 @@ md5sum test.exe.{orig,out}
 
 ## Notes
 
-Nothing groundbreaking, very basic packer (just break on WriteProcessMemory). Uses a very old compression algorithm (QuickLZ), so that's fun.
+Nothing groundbreaking, very basic packer (just break on WriteProcessMemory and dump the PE). Uses a very old compression algorithm (QuickLZ), so that's fun.
